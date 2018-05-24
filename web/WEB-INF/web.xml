@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>seconduser</display-name>
+  <welcome-file-list>
+    <welcome-file>Welcome.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SearchGoods</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.SearchGoods</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchGoods</servlet-name>
+    <url-pattern>/SearchGoods</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddMyGoods</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.AddMyGoods</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddMyGoods</servlet-name>
+    <url-pattern>/AddMyGoods</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteMyGoods</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.DeleteMyGoods</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteMyGoods</servlet-name>
+    <url-pattern>/DeleteMyGoods</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ChangeMyGoods</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.ChangeMyGoods</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangeMyGoods</servlet-name>
+    <url-pattern>/ChangeMyGoods</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MyOrders</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.MyOrders</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyOrders</servlet-name>
+    <url-pattern>/MyOrders</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SearchMyGoods</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.SearchMyGoods</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchMyGoods</servlet-name>
+    <url-pattern>/SearchMyGoods</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>SubmitOrder</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.SubmitOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubmitOrder</servlet-name>
+    <url-pattern>/SubmitOrder</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AuthCode</servlet-name>
+    <servlet-class>com.rone.secondUser.myservlet.AuthCode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AuthCode</servlet-name>
+    <url-pattern>/AuthCode</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
